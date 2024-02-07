@@ -7,64 +7,75 @@ body {
     background-size: cover;
   }
   
-  .header {
-    position: absolute;
-    top: 45%;
-    left: 50%;
-    max-width: 80%;
-    margin-right: -50%;
-    transform: translate(-50%, -50%)
-  }
+.main {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%, -50%);
+  max-width: 90%;
+   /*
+  border: 4px;
+  border-style: dotted;
+  border-color: brown;
+  */
+}
+
+.footer {
+  position: absolute;
+  top:88%;
+  left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  /*
+  border: 4px;
+  border-style: dotted;
+  border-color: brown;
+  */
+}
+
+.title {
+  max-width: 100%;
+}
   
-  .subheader {
-    position: absolute;
-    top: 51%;
-    left: 50%;
-    text-align: center;
-    max-width: 70%;
-    margin-right: -50%;
-    transform: translate(-50%, -50%);
-    font-family: "canto", serif;
-    font-weight: 400;
-    font-style: normal;
-    font-size:28px;
-    color:  rgb(254,150,130);
-  }
+.subheader {
+  text-align: center;
+  font-family: "canto", serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size:28px;
+  color:  rgb(254,150,130);
+}
+
   
-  .work-link {
-    position: absolute;
-    top:87%;
-    left: 50%;
-    margin-right: -50%;
-    transform: translate(-50%, -50%);
-    font-family: "canto", serif;
-    font-weight: 400;
-    font-style: normal;
-    font-size:28px;
-    color:  rgb(250,244,222);
-    text-decoration: none;
+a {
+  font-family: "canto", serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size:28px;
+  color:  rgb(250,244,222);
+  text-decoration: none;
   
-  }
+}
   
-  .work-link:hover{
-      color:   rgb(254,150,130);
-  }
-  
-  .contact-link {
-    position: absolute;
-    top:92%;
-    left: 50%;
-    margin-right: -50%;
-    transform: translate(-50%, -50%);
-    font-family: "canto", serif;
-    font-weight: 400;
-    font-style: normal;
-    font-size:28px;
-    color:  rgb(250,244,222);
-    text-decoration: none;
-  
+a:hover {
+  color:   rgb(254,150,130);
+}
+
+@media only screen and (max-width: 768px) {
+  .title {
+    margin-top:10%;
   }
 
-  .contact-link:hover{
-    color:   rgb(254,150,130);
+  .subheader { 
+    margin-left: 1em;
+    margin-right: 1em;
+    font-size: 36px;
+  }
+
+  a {
+    font-size:36px;   
+  }
+
 }
