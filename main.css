@@ -67,7 +67,7 @@ a:hover {
 @media screen and (orientation:portrait) {
 
   .main {
-    max-width: 98%;
+    max-width: 95%;
   }
   .title {
     margin-top:10%;
@@ -77,11 +77,11 @@ a:hover {
   .subheader { 
     margin-left:10%;
     margin-right:10%;
-    font-size: 44px;
+    font-size: 36px;
   }
 
   a {
-    font-size:44px;   
+    font-size:36px;   
   }
 
 }
