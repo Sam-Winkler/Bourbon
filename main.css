@@ -15,11 +15,11 @@ body {
   transform: translate(-50%, -50%);
   max-width: 90%;
 
-   
+  /* 
   border: 4px;
   border-style: dotted;
   border-color: brown;
-  
+  */
 }
 
 .footer {
@@ -65,6 +65,10 @@ a:hover {
 }
 
 @media screen and (orientation:portrait) {
+
+  .main {
+    max-width: 95%;
+  }
   .title {
     margin-top:10%;
 
