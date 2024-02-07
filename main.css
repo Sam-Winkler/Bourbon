@@ -1,0 +1,70 @@
+
+body { 
+    background-image: url('Bourbon_Web_BG_03.png');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center; 
+    background-size: cover;
+  }
+  
+  .header {
+    position: absolute;
+    top: 45%;
+    left: 50%;
+    max-width: 80%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%)
+  }
+  
+  .subheader {
+    position: absolute;
+    top: 51%;
+    left: 50%;
+    text-align: center;
+    max-width: 70%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+    font-family: "canto", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size:28px;
+    color:  rgb(254,150,130);
+  }
+  
+  .work-link {
+    position: absolute;
+    top:88%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+    font-family: "canto", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size:28px;
+    color:  rgb(250,244,222);
+    text-decoration: none;
+  
+  }
+  
+  .work-link:hover{
+      color:   rgb(254,150,130);
+  }
+  
+  .contact-link {
+    position: absolute;
+    top:92%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+    font-family: "canto", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size:28px;
+    color:  rgb(250,244,222);
+    text-decoration: none;
+  
+  }
+
+  .contact-link:hover{
+    color:   rgb(254,150,130);
+}
