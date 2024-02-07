@@ -14,11 +14,12 @@ body {
   margin-right: -50%;
   transform: translate(-50%, -50%);
   max-width: 90%;
-   /*
+
+   
   border: 4px;
   border-style: dotted;
   border-color: brown;
-  */
+  
 }
 
 .footer {
@@ -63,14 +64,15 @@ a:hover {
   color:   rgb(254,150,130);
 }
 
-@media only screen and (max-width: 768px) {
+@media screen and (orientation:portrait) {
   .title {
     margin-top:10%;
+
   }
 
   .subheader { 
-    margin-left: 1em;
-    margin-right: 1em;
+    margin-left:10%;
+    margin-right:10%;
     font-size: 36px;
   }
 
